@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mapboxgl-ctrl {
+    display: none !important;
+}
+
+#map {
+    inset: 0;
+    position: absolute;
+}
+
+.map-overlay {
+    right: 2.5em;
+    cursor: default;
+    user-select: none;
+    position: absolute;
+    border-radius: 0.5em;
+    font-family: Arial, sans-serif;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#features {
+    top: 2.5em;
+    width: 20em;
+    padding: 1em;
+    height: max-content;
+}
+
+#legend {
+    width: 10em;
+    padding: 1em;
+    bottom: 2.5em;
+    line-height: 1.5em;
+    height: max-content;
+}
+
+.legend-key {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 20%;
+    display: inline-block;
+}
